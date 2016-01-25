@@ -3,6 +3,7 @@
 Instruções para compilação e execução, dentro do diretório do projeto:
 
 mvn clean install
+
 java -jar target/hotel-hotmart-0.0.1.jar [arquivo]*
 
 *Nesse projeto em questão, um arquivo de exemplo chamado 1.txt está na pasta do projeto.
