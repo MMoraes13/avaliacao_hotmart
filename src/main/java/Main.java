@@ -25,7 +25,7 @@ public class Main {
 			System.out.println (hoteis.get(psqsa.pesquisarValor (days, tipoCliente)).getNomeHotel()+": R$"+Integer.valueOf(formato.format(psqsa.getMenorValor())));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println ("O caminho do arquivo especificado não é válido.");
 		}
 	}
 	public static void preencheHoteis () {
