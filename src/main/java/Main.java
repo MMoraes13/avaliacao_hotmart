@@ -13,6 +13,7 @@ public class Main {
 	static String tipoCliente;
 	static ArrayList <String> days;
 	static Pesquisa psqsa;
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		preencheHoteis();		
@@ -26,7 +27,10 @@ public class Main {
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			System.out.println ("O caminho do arquivo especificado não é válido.");
+		} catch (IndexOutOfBoundsException i) {
+			System.out.println("Não foi passado parâmetro para o sistema.");
 		}
+		
 	}
 	public static void preencheHoteis () {
 		plaza = new Hotel ("The Plaza", 110, 160, 4, 60, 50);
