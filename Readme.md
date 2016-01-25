@@ -24,12 +24,16 @@ Exemplo: java -jar target/hotel-hotmart-0.0.1.jar Arquivo1
 </arquivo1>
 
 <arquivo2> 
+Arquivo 2:
+
 Regular: 20Mar2015(sex), 21Mar2015(sab), 22Mar2015(dom)
 
 Exemplo: java -jar target/hotel-hotmart-0.0.1.jar Arquivo2
 </arquivo2>
 
-<arquivo3> 
+<arquivo3>
+Arquivo 3:
+ 
 Vip: 26Mar2015(qui), 27Mar2015(sex), 28Mar2015(sab)
 
 Exemplo: java -jar target/hotel-hotmart-0.0.1.jar Arquivo3

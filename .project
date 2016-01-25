@@ -3,6 +3,8 @@
 	<name>hotmart_avaliacao_hotel</name>
 	<comment></comment>
 	<projects>
+		<project>hotel-teste</project>
+		<project>RemoteSystemsTempFiles</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
