@@ -1,4 +1,4 @@
-Avaliação técnica Back-end Hotmart
+Avaliação técnica Back-end Hotmart - Mateus Moraes
 ===================================
 
 Instruções para compilação e execução, dentro do diretório do projeto:
@@ -13,16 +13,26 @@ java -jar target/hotel-hotmart-0.0.1.jar [arquivo]*
 
 Explicações sobre a solução:
 
-Os casos de teste fornecidos na descrição do problema foram separados em três arquivos de entrada diferentes. Dessa forma, a saída se tornaria mais limpa para a possível correção por um robô. Ou seja, cada uma das seguintes entradas, deve ser inserida como um parametro novo na execução:
+Os casos de teste fornecidos na descrição do problema foram separados em três arquivos de entrada diferentes. Dessa forma, a saída se tornaria mais limpa para a possível correção por um robô. Ou seja, cada uma das seguintes entradas, deve ser inserida como um arquivo novo na execução:
 
 <arquivo1> 
+Arquivo 1:
+
 Regular: 16Mar2015(seg), 17Mar2015(ter), 18Mar2015(qua)
+
+Exemplo: java -jar target/hotel-hotmart-0.0.1.jar Arquivo1
 </arquivo1>
+
 <arquivo2> 
 Regular: 20Mar2015(sex), 21Mar2015(sab), 22Mar2015(dom)
+
+Exemplo: java -jar target/hotel-hotmart-0.0.1.jar Arquivo2
 </arquivo2>
+
 <arquivo3> 
-Vip: 26Mar2015(qui), 27Mar2015(sex), 28Mar2015(sab
+Vip: 26Mar2015(qui), 27Mar2015(sex), 28Mar2015(sab)
+
+Exemplo: java -jar target/hotel-hotmart-0.0.1.jar Arquivo3
 </arquivo3> 
 
 A estrutura do projeto é bem simples, tendo dois pacotes principais: leitor e core. 
